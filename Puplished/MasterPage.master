@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="WebApplication4.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<link rel="Shortcut Icon" type ="image/png" href="http://www.themag12.com/assets/images/world/portrait/xho_portrait.png" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+
+    <link rel="Shortcut Icon" type="image/png" href="http://orig15.deviantart.net/cd29/f/2014/096/1/5/dark_spell_by_magnusss-d7d8ss3.png" />
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <title>JC</title>
+    <style type="text/css">
+        .style1
+        {
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+     <form id="form1" runat="server">
+<table>
+    <tr>
+    </tr>
+    <tr>
+    <td>
+    <div id="umsg">
+<%--    <h3><%= Session["uMsg"]%></h3>--%>
+    </div>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    </td>
+    </tr>
+    <tr>
+    <td class="style1">
+
+    </td>
+    </tr>
+</table>
+
+         </form>
+</body>
+</html>
